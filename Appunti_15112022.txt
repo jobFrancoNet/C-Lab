@@ -1,0 +1,65 @@
+Appunti
+--- .NET FRAMEWORK (TUTTI I PROGETTI SONO LEGATI FORTEMENTE AL SO (WINDOWS)
+
+--- .NET CORE O .NET 5.0 PROGETTI IMPLEMENTATI CROSSPLATFORM (WIN-LINUX-MACOS)
+
+--- AZURE FUNCTION SVILUPPARE .NET CORE 3.X - 5.0 ECOSISTEMA MICROSOFT
+                              JAVA
+                              PYTHON
+                              NODE.JS
+                          
+--- ASP ACTIVE SERVER PAGE - 1990
+
+
+-- .NET FRAMEWORK (1999---- ASP.NET CON TECNOLOGIA ASPX)
+
+--- .NET CORE     (2016 IN POI - ASP.NET CORE)
+
+
+Modificatori -> RENDERE VISIBILI/NON VISIBILI ALL'ESTERNO DI DETERMINATE ENTITA'
+
+dotnet run
+1 controllo versione runtime dotnet (net core/net x)
+2) ripristino pacchetti tramite csproj con il canale nuget
+3) compilazione
+4) esecuzione...
+
+Primo paradigma Incapsulamento -> information hiding
+(di nascondere la logica di business dei membri dell'entità attraverso un modificatore private)
+(però 
+
+Implementare una classe product
+
+con due membri pubblici
+
+public int ProductId (get; set;)
+public string DescrizioneProdotto (get; set;)
+
+List<Product> LISTA_PRODOTTI {get; set;}
+
+public AddProduct(Product p) 
+{
+   //codice
+   LISTA_PRODOTTI.Add(p);
+}
+
+public List<Product> GetProduct() 
+{
+   return LISTA_PRODOTTI;
+}
+
+Ogni membro privato non statico viene valorizzato sempre con un metodo Pubblico o Costruttore
+Il costruttore accetta più argomenti di diverso tipo e si chiama Overloading
+A gni membro privato non statico si accede sempre attraverso un metodo (function) che fa ritornare
+il tipo dichiarato privatamente.
+Si possono assegnare argomenti (o valori) a proprietà private attraverso il Costruttore
+
+
+
+Metodo -> Procedura (void)    function (return di un tipo qualsiasi)
+
+Metodi -> passaggio di argomenti  
+passaggio per riferimento   -> si modifica il valore nel main effettuando modifiche nel metodo chiamante (si pass di un
+address di memoria)
+passaggio per valore (di default funziona sempre il passaggio per valore ossia viene passato un clone del tipo e
+ogni modifica nel metodo chiamante non effetti verso l'esterno...)

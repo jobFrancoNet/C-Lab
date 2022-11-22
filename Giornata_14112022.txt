@@ -1,0 +1,19 @@
+Gli argomenti trattati:
+-	Data types fondamentali (int, string, double, decimal, bool)
+-	Classi e oggetti
+-	Metodi
+-	Membri Static
+-	Method overloading
+-	Costruttori
+-	Polimorfismo
+-	Incapsulamento
+-	Ereditarietà
+-	Classi e metodi astratti
+-	Interfacce
+-	Classi e metodi sealed
+-	Classi partial
+-	Namespaces
+-	Altri concetti sui data types (constants, var, enum, array, list)
+-	If, else, switch
+-	Cicli (while, for, foreach)
+-	Try/catch/finally e eccezioni (accenno)

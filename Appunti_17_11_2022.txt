@@ -1,0 +1,19 @@
+SERIALIZZAZIONE
+
+1 CLASSE DEVE ESSERE PUBLICA
+2 TUTTI (I MEMBRI SI RIFERISCONO ALLE PROPERTIES) DEVE ESSERE PUBBLICI
+3 DEVE AVERE UN COSTRUTTORE VUOTO (SENZA PARAMETRI)
+
+QUANTE STRUTTURE DATI POSSONO ESSERE SERIALIZZATE
+
+TUTTI I DATI PRIMITIVI DEL FRAMEWORK...
+TUTTE LE STRUTTURE (O COLLECTION) DEL NAME SPACE SYSTEM.COLLECTIONS.Generics
+(Array Array<T> LIST<T> - DICTIONARY)
+
+
+DICTIONARY<TKEY,TVALUES>
+
+Server=(localdb)\MSSQLLocalDB;Initial Catalog=DBEFCORE;Integrated Security=True
+dotnet ef dbcontext scaffold "Server=(localdb)\MSSQLLocalDB;Initial Catalog=DBEFCORE;Integrated Security=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+https://dotnetcoretutorials.com/2022/04/28/using-user-secrets-configuration-in-net/
